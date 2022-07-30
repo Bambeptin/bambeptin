@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CLOCKTOWER BREAKING!
-tab_title: Your Comic! #This text shows up on the browser tab
+tab_title: bad space #This text shows up on the browser tab
 #email:
 description: my apologies, the omniverse is doomed | ben 10 comic about paradox and eon 
 url: #"bambeptin.com" the base hostname & protocol for your site
