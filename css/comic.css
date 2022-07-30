@@ -8,11 +8,11 @@ body {
   color: #424142;
   padding-top: 20px;
   background-image: url({{ site.url }}/images/bg-tile.png);
-  background-color: gray;
+  background-color: black;
 }
 
 .panel {
-  background-color: white;
+  background-color: black;
   min-height: 500px;
 }
 
