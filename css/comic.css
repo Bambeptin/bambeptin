@@ -5,7 +5,7 @@
 body {
   font-family: 'Droid Sans', sans-serif;
   font-size: 15px;
-  color: #424142;
+  color: #eeeeee ;
   padding-top: 20px;
   background-image: url({{ site.url }}/images/bg-tile.png);
   background-color: black;
@@ -81,11 +81,11 @@ body {
 }
 
 .jumbotron a {
-  color: #424142;
+  color: #FF0042;
 }
 
 .jumbotron a:visited {
-  color: #424142;
+  color: #eeeeee;
 }
 
 
