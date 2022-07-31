@@ -7,7 +7,7 @@ body {
   font-size: 15px;
   color: #eeeeee ;
   padding-top: 20px;
-  background-image: url({{ site.url }}/images/bg-tilereverse.png);
+  background-image: url({{ site.url }}/images/bg-gridreverse.png);
   background-color: grey;
 }
 
@@ -58,7 +58,7 @@ body {
 /*=============================*/
 
 .jumbotron {
-  background-image: url({{ site.url }}/images/header.png);
+  background-image: url({{ site.url }}/images/headerthin.png);
   font-family: 'Fredoka One', cursive;
 }
 
