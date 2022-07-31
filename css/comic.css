@@ -8,7 +8,7 @@ body {
   color: #eeeeee ;
   padding-top: 20px;
   background-image: url({{ site.url }}/images/bg-tilereverse.png);
-  background-color: black;
+  background-color: grey;
 }
 
 .panel {
