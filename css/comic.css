@@ -8,7 +8,7 @@ body {
   color: #eeeeee ;
   padding-top: 20px;
   background-image: url({{ site.url }}/images/bg-gridreverse.png);
-  background-color: grey;
+  background-color: black;
 }
 
 .panel {
