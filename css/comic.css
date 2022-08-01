@@ -167,7 +167,7 @@ nav {
   border-bottom: 4px var(--mainColor) solid;
 }
 
-nav ul {
+nav ul.navbar-nav {
   margin: 0;
 }
 
@@ -180,7 +180,7 @@ nav li {
   list-style: none;
   padding: 0;
   font-size: 1.5rem;
-  font-family: var(--mainFont);
+  /* font-family: var(--mainFont); */
   background-color: var(--dark);
 }
 
@@ -189,6 +189,10 @@ img {
   width: 40%;
   max-width: 400px;
   margin: 5% auto 5% auto;
+}
+
+nav li {
+  width: fit-content;
 }
 
 /* COMIC PANEL STYLES */
@@ -209,7 +213,7 @@ img {
     position: relative;
   }
 
-  nav ul {
+  nav ul.navbar-nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -229,8 +233,8 @@ img {
   nav a {
     padding: 10px 20px;
     border-radius: 8px;
-    background-color: var(--white);
-    box-shadow: 3px 3px var(--mainColor);
+    /* background-color: var(--white); */
+    /* box-shadow: 3px 3px var(--mainColor); */
     border-radius: 8px;
     margin-top: 1rem;
     transition: all 50ms ease-in-out;
@@ -246,5 +250,9 @@ img {
 
   nav li {
     margin: 0 0.5rem;
+  }
+
+  nav a {
+    width: 8rem;
   }
 }
