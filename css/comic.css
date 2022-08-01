@@ -119,9 +119,9 @@ nav .iconify {
 
 /* hide the nav menu */
 nav ul {
-  display: none;
-  padding: 0;
-  width: 100%;
+  display: none !important;
+  padding: 0 !important;
+  width: 100% !important;
 }
 
 /* color every other nav row */
@@ -136,15 +136,15 @@ nav li:nth-of-type(odd) {
 
 /* show the nav menu when the checkbox is checked */
 #navMenuCheck:checked + #navMenu {
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  flex-direction: column !important;
 }
 
 /* Style the nav menu button row */
 #navMenuButton {
-  width: 100%;
+  width: 100% !important;
   background-color: var(--dark);
-  height: auto;
+  height: auto !important;
 }
 
 /* Make each link block for easy clicking */
