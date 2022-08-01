@@ -5,4 +5,4 @@ title: "3"
 categories: page
 permalink: /003
 ---
-![PAGE ONE]({{ site.url }}/pages/003.png)
+![PAGE THREE]({{ site.url }}/pages/003.png)
