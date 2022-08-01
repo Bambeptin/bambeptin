@@ -105,16 +105,16 @@ body {
 /* CHange menu button */
 
 nav {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
 }
 
 nav .iconify {
-  color: hsl(0, 45%, 60%);
+  color: hsl(0, 45%, 60%) !important;
 }
 
 /* hide the nav menu */
@@ -126,12 +126,12 @@ nav ul {
 
 /* color every other nav row */
 nav li:nth-of-type(odd) {
-  background-color: var(--white);
+  background-color: var(--white) !important;
 }
 
 /* remove the nav menu checkbox (label still works and is displayed */
 #navMenuCheck {
-  display: none;
+  display: none !important;
 }
 
 /* show the nav menu when the checkbox is checked */
@@ -143,56 +143,49 @@ nav li:nth-of-type(odd) {
 /* Style the nav menu button row */
 #navMenuButton {
   width: 100% !important;
-  background-color: var(--dark);
+  background-color: var(--dark) !important;
   height: auto !important;
 }
 
 /* Make each link block for easy clicking */
 nav a {
-  display: block;
-  color: var(--secondaryColor);
-  font-weight: 900;
-  text-decoration: none;
-  padding: 1em;
-  text-align: center;
+  display: block !important;
+  color: var(--secondaryColor) !important;
+  font-weight: 900 !important;
+  text-decoration: none !important;
+  padding: 1em !important;
+  text-align: center !important;
 }
 
 nav a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 4px;
+  text-decoration: underline !important;
+  text-decoration-thickness: 4px !important;
 }
 
 /* Border on bottom of nav so it can stand out */
 nav {
-  border-bottom: 4px var(--mainColor) solid;
+  border-bottom: 4px var(--mainColor) solid !important;
 }
 
 nav ul.navbar-nav {
-  margin: 0;
+  margin: 0 !important;
 }
 
 nav label {
-  padding-left: 80%;
+  padding-left: 80% !important;
 }
 
 /* modifying nav list for mobile */
 nav li {
-  list-style: none;
-  padding: 0;
-  font-size: 1.5rem;
-  /* font-family: var(--mainFont); */
-  background-color: var(--dark);
-}
-
-img {
-  display: block;
-  width: 40%;
-  max-width: 400px;
-  margin: 5% auto 5% auto;
+  list-style: none !important;
+  padding: 0 !important;
+  font-size: 1.5rem !important;
+  /* font-family: var(--mainFont) !important; */
+  background-color: var(--dark) !important;
 }
 
 nav li {
-  width: fit-content;
+  width: fit-content !important;
 }
 
 /* COMIC PANEL STYLES */
@@ -204,55 +197,55 @@ nav li {
 
 @media (min-width: 750px) {
   #navMenuButton {
-    display: none;
+    display: none !important;
   }
 
   nav {
-    border-bottom: 0;
-    margin: 3% 0;
-    position: relative;
+    border-bottom: 0 !important;
+    margin: 3% 0 !important;
+    position: relative !important;
   }
 
   nav ul {
-    display: flex;
+    display: flex !important;
     flex-direction: row !important;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 0;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    padding: 0 !important;
   }
 
   nav li:last-of-type {
-    border-bottom: none;
+    border-bottom: none !important;
   }
 
   nav li,
   header nav li:nth-of-type(odd) {
-    background-color: unset;
+    background-color: unset !important;
   }
 
   nav a {
-    padding: 10px 20px;
-    border-radius: 8px;
-    /* background-color: var(--white); */
-    /* box-shadow: 3px 3px var(--mainColor); */
-    border-radius: 8px;
-    margin-top: 1rem;
-    transition: all 50ms ease-in-out;
+    padding: 10px 20px !important;
+    border-radius: 8px !important;
+    /* background-color: var(--white) !important; */
+    /* box-shadow: 3px 3px var(--mainColor) !important; */
+    border-radius: 8px !important;
+    margin-top: 1rem !important;
+    transition: all 50ms ease-in-out !important;
   }
 
   nav a:hover,
   nav a:active {
-    box-shadow: 3px 3px var(--secondaryColor);
-    border: 3px var(--secondaryColor) solid;
-    color: var(--secondaryColor);
-    text-decoration: none;
+    box-shadow: 3px 3px var(--secondaryColor) !important;
+    border: 3px var(--secondaryColor) solid !important;
+    color: var(--secondaryColor) !important;
+    text-decoration: none !important;
   }
 
   nav li {
-    margin: 0 0.5rem;
+    margin: 0 0.5rem !important;
   }
 
   nav a {
-    width: 8rem;
+    width: 8rem !important;
   }
 }
