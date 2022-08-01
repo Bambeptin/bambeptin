@@ -1,11 +1,12 @@
 ---
 ---
+
 /*CSS for comic site*/
 
 body {
-  font-family: 'Droid Sans', sans-serif;
+  font-family: "Droid Sans", sans-serif;
   font-size: 15px;
-  color: #eeeeee ;
+  color: #eeeeee;
   padding-top: 20px;
   background-image: url({{ site.url }}/images/bg-gridreverse.png);
   background-color: black;
@@ -18,27 +19,27 @@ body {
 
 .panel p {
   padding: 0px 25px 0px 25px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .panel h1 {
   font-size: 30px;
   font-weight: regular;
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   padding: 0px 25px 0px 25px;
 }
 
 .panel h2 {
   font-size: 20px;
   font-weight: bold;
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   padding: 0px 25px 0px 25px;
 }
 
 .panel h3 {
   font-size: 14px;
   font-weight: bold;
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   padding: 0px 25px 0px 25px;
 }
 
@@ -52,19 +53,17 @@ body {
   float: none;
 }
 
-
-
 /* HEADER STYLES */
 /*=============================*/
 
 .jumbotron {
   background-image: url({{ site.url }}/images/headerthin.png);
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
 }
 
 .container .jumbotron {
   padding: 30px 0px 30px 0px;
-  text-align: center; //left, right, or center
+  text-align: center; /*left, right, or center*/
 }
 
 .jumbotron img {
@@ -73,29 +72,27 @@ body {
 }
 
 .jumbotron h1 {
-  font-family: 'Fredoka One', cursive;
+  font-family: "Fredoka One", cursive;
 }
 
 .jumbotron p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .jumbotron a {
-  color: #FF0042;
+  color: #ff0042;
 }
 
 .jumbotron a:visited {
   color: #eeeeee;
 }
 
-
-
 /* ARCHIVE STYLES */
 /*=============================*/
 
 .archive-li {
-    /* float: left; */
-    display: block;
+  /* float: left; */
+  display: block;
 }
 
 .archive-ul {
@@ -103,40 +100,151 @@ body {
   list-style: none;
 }
 
-
-
-
-
-/* NAVBAR STYLES */
+/* MOBILE NAVBAR STYLES */
 /*=============================*/
-.navbar {
-  margin-bottom: 0px;
+/* CHange menu button */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-.navbar .navbar-default {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-  margin-bottom: none;
+nav .iconify {
+  color: hsl(0, 45%, 60%);
 }
 
-.navbar .navbar-nav {
-  font-family: 'Arvo', serif;
-  margin-left: auto;
-  display: inline-block;
-  float: none;
-  vertical-align: top;
+/* hide the nav menu */
+nav ul {
+  display: none;
+  padding: 0;
+  width: 100%;
 }
 
-.navbar .navbar-collapse {
+/* color every other nav row */
+nav li:nth-of-type(odd) {
+  background-color: var(--white);
+}
+
+/* remove the nav menu checkbox (label still works and is displayed */
+#navMenuCheck {
+  display: none;
+}
+
+/* show the nav menu when the checkbox is checked */
+#navMenuCheck:checked + #navMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the nav menu button row */
+#navMenuButton {
+  width: 100%;
+  background-color: var(--dark);
+  height: auto;
+}
+
+/* Make each link block for easy clicking */
+nav a {
+  display: block;
+  color: var(--secondaryColor);
+  font-weight: 900;
+  text-decoration: none;
+  padding: 1em;
   text-align: center;
 }
 
+nav a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+}
 
+/* Border on bottom of nav so it can stand out */
+nav {
+  border-bottom: 4px var(--mainColor) solid;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav label {
+  padding-left: 80%;
+}
+
+/* modifying nav list for mobile */
+nav li {
+  list-style: none;
+  padding: 0;
+  font-size: 1.5rem;
+  font-family: var(--mainFont);
+  background-color: var(--dark);
+}
+
+img {
+  display: block;
+  width: 40%;
+  max-width: 400px;
+  margin: 5% auto 5% auto;
+}
 
 /* COMIC PANEL STYLES */
 /*=============================*/
 .comic-panel {
   max-width: 700px;
   margin-left: auto;
+}
+
+@media (min-width: 750px) {
+  #navMenuButton {
+    display: none;
+  }
+
+  nav {
+    border-bottom: 0;
+    margin: 3% 0;
+    position: relative;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+  }
+
+  nav li:last-of-type {
+    border-bottom: none;
+  }
+
+  nav li,
+  header nav li:nth-of-type(odd) {
+    background-color: unset;
+  }
+
+  nav a {
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: var(--white);
+    box-shadow: 3px 3px var(--mainColor);
+    border-radius: 8px;
+    margin-top: 1rem;
+    transition: all 50ms ease-in-out;
+  }
+
+  nav a:hover,
+  nav a:active {
+    box-shadow: 3px 3px var(--secondaryColor);
+    border: 3px var(--secondaryColor) solid;
+    color: var(--secondaryColor);
+    text-decoration: none;
+  }
+
+  nav li {
+    margin: 0 0.5rem;
+  }
 }
