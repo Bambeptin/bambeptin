@@ -115,6 +115,7 @@ nav {
 
 nav label {
  width: 100% !important;
+ display: block !important;
 }
 
 nav .iconify {
