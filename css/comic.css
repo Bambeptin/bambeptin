@@ -200,7 +200,7 @@ nav {
     display: none !important;
   }
 #desktop-top-nav{
-display: flex;
+display: flex !important;
 }
 
   
