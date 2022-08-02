@@ -169,6 +169,15 @@ nav li {
   margin-left: auto;
 }
 
+.pager {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
+}
+
 @media (min-width: 750px) {
   #mobile-footer-nav,
   #mobile-top-nav {
