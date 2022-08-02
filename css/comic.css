@@ -188,7 +188,7 @@ nav a {
     display: none;
   }
 
-  #desktop-top-nav {
+  #desktop-nav {
     display: flex;
     flex-direction: column;
     position: fixed;
