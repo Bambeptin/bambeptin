@@ -155,10 +155,6 @@ nav a {
 
 nav li {
   margin: 0 0.5rem;
-  width: fit-content;
-}
-
-nav a {
   width: 8rem;
 }
 
