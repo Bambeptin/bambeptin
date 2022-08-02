@@ -108,7 +108,10 @@ body {
 #mobile-top-nav {
   display: flex;
   flex-direction: column;
-  position: fixed;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  width: 100%;
 }
 
 /* hide the nav menu */
@@ -134,15 +137,6 @@ nav label {
 nav {
   border-bottom: 0;
   margin: 3% 0;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 0;
-  width: 100%;
 }
 
 nav a {
@@ -173,6 +167,10 @@ nav li {
 
   #desktop-nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    width: 100%;
   }
 }
