@@ -125,9 +125,6 @@ nav a:hover {
 }
 
 /* Border on bottom of nav so it can stand out */
-nav {
-  border-bottom: 4px var(--mainColor) solid;
-}
 
 nav ul.navbar-nav {
   margin: 0;
@@ -157,14 +154,6 @@ nav a {
   border-radius: 8px;
   margin-top: 1rem;
   transition: all 50ms ease-in-out;
-}
-
-nav a:hover,
-nav a:active {
-  box-shadow: 3px 3px var(--secondaryColor);
-  border: 3px var(--secondaryColor) solid;
-  color: var(--secondaryColor);
-  text-decoration: none;
 }
 
 nav li {
