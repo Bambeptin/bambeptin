@@ -107,12 +107,14 @@ body {
 nav a {
   color: #eeeeee;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 #mobile-footer-nav,
 #mobile-top-nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
