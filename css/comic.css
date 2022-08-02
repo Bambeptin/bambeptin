@@ -104,7 +104,7 @@ body {
 /*=============================*/
 /* CHange menu button */
 
-nav ul {
+nav a {
   color: #eeeeee;
   text-decoration: none;
   border-bottom: 2px #eee solid;
