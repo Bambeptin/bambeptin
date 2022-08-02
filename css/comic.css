@@ -109,9 +109,6 @@ body {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
 }
 
 /* hide the nav menu */
@@ -137,7 +134,6 @@ nav label {
 nav {
   border-bottom: 0;
   margin: 3% 0;
-  position: relative;
 }
 
 nav ul {
@@ -180,9 +176,5 @@ nav a {
   #desktop-nav {
     display: flex;
     flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
   }
 }
