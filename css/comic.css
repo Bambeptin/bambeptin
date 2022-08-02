@@ -104,6 +104,12 @@ body {
 /*=============================*/
 /* CHange menu button */
 
+nav ul {
+  color: #eeeeee;
+  text-decoration: none;
+  border-bottom: 2px #eee solid;
+}
+
 #mobile-footer-nav,
 #mobile-top-nav {
   display: flex;
