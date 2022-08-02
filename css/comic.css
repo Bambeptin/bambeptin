@@ -104,88 +104,76 @@ body {
 /*=============================*/
 /* CHange menu button */
 
-nav ul{
-  display: flex !important;
-  flex-direction: column !important;
-  position: fixed !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
+#mobile-footer-nav,
+#mobile-top-nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 /* hide the nav menu */
 #desktop-nav {
-  display: none !important;
+  display: none;
 }
 
-
 nav a:hover {
-  text-decoration: underline !important;
-  text-decoration-thickness: 4px !important;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
 }
 
 /* Border on bottom of nav so it can stand out */
 nav {
-  border-bottom: 4px var(--mainColor) solid !important;
+  border-bottom: 4px var(--mainColor) solid;
 }
 
 nav ul.navbar-nav {
-  margin: 0 !important;
+  margin: 0;
 }
 
 nav label {
-  padding-left: 80% !important;
+  padding-left: 80%;
 }
 
 nav {
-    border-bottom: 0 !important;
-    margin: 3% 0 !important;
-    position: relative !important;
-  }
+  border-bottom: 0;
+  margin: 3% 0;
+  position: relative;
+}
 
-  nav ul {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    justify-content: space-around !important;
-    padding: 0 !important;
-  }
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
 
-  nav li:last-of-type {
-    border-bottom: none !important;
-  }
+nav a {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border-radius: 8px;
+  margin-top: 1rem;
+  transition: all 50ms ease-in-out;
+}
 
-  nav li,
-  header nav li:nth-of-type(odd) {
-    background-color: unset !important;
-  }
+nav a:hover,
+nav a:active {
+  box-shadow: 3px 3px var(--secondaryColor);
+  border: 3px var(--secondaryColor) solid;
+  color: var(--secondaryColor);
+  text-decoration: none;
+}
 
-  nav a {
-    padding: 10px 20px !important;
-    border-radius: 8px !important;
-    /* background-color: var(--white) !important; */
-    /* box-shadow: 3px 3px var(--mainColor) !important; */
-    border-radius: 8px !important;
-    margin-top: 1rem !important;
-    transition: all 50ms ease-in-out !important;
-  }
+nav li {
+  margin: 0 0.5rem;
+}
 
-  nav a:hover,
-  nav a:active {
-    box-shadow: 3px 3px var(--secondaryColor) !important;
-    border: 3px var(--secondaryColor) solid !important;
-    color: var(--secondaryColor) !important;
-    text-decoration: none !important;
-  }
-
-  nav li {
-    margin: 0 0.5rem !important;
-  }
-
-  nav a {
-    width: 8rem !important;
-  }
-
+nav a {
+  width: 8rem;
+}
 
 /* COMIC PANEL STYLES */
 /*=============================*/
@@ -196,12 +184,16 @@ nav {
 
 @media (min-width: 750px) {
   #mobile-footer-nav,
-#mobile-top-nav {
-    display: none !important;
+  #mobile-top-nav {
+    display: none;
   }
-#desktop-top-nav{
-display: flex !important;
-}
 
-  
+  #desktop-top-nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
 }
