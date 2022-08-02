@@ -177,6 +177,9 @@ nav li {
   padding: 0;
   width: 100%;
 }
+.pager li {
+  list-style: none;
+}
 
 @media (min-width: 750px) {
   #mobile-footer-nav,
