@@ -11,7 +11,7 @@ Feel free to share with credit, but don't repost to other sites!
 
 {% include socialmedia.html %}
 
-# About the Author
+# About the Author/Artist
 
 Bamboo enjoys Paradox a normal amount.
 
