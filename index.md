@@ -7,4 +7,4 @@ permalink: /index.html
 # Written and drawn by Bambeptin
 {% include authorsocialmedia.html %}
 
-<a href="[https://peahatlanding.github.io/Plain-Webcomic/docs/index.html](https://bambeptin.com/001)" class="btn btn-primary" role="button" aria-disabled="true">PAGE ONE</a>
+<a href="[https://bambeptin.com/001](https://bambeptin.com/001)" class="btn btn-primary" role="button" aria-disabled="true">PAGE ONE</a>
