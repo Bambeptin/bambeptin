@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-08-04 17:00:00 -0500
+title: "6"
+categories: page
+permalink: /006
+---
+![PAGE SIX]({{ site.url }}/pages/006.png)
