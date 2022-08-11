@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-08-11 15:00:00 -0500
+title: "11"
+categories: page
+permalink: /011
+---
+![PAGE ELEVEN]({{ site.url }}/pages/011.png)
