@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-08-15 15:00:00 -0500
+title: "12"
+categories: page
+permalink: /012
+---
+![PAGE TWELVE]({{ site.url }}/pages/012.png)
