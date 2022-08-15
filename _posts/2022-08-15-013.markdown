@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-08-15 15:00:00 -0500
+title: "13"
+categories: page
+permalink: /013
+---
+![PAGE THIRTEEN]({{ site.url }}/pages/013.png)
