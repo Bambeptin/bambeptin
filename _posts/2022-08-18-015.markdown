@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-08-18 15:00:00 -0500
+title: "15"
+categories: page
+permalink: /015
+---
+![PAGE FIFTEEN]({{ site.url }}/pages/015.png)
