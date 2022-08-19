@@ -1,7 +1,7 @@
 ---
 layout: comic
 date:   2022-08-18 15:00:00 -0500
-title: "13"
+title: "14"
 categories: page
 permalink: /014
 ---
