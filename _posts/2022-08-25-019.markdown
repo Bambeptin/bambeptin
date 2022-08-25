@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-08-25 15:00:00 -0500
+title: "19"
+categories: page
+permalink: /019
+---
+![PAGE NINETEEN]({{ site.url }}/pages/019.png)
