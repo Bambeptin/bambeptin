@@ -6,8 +6,8 @@ permalink: /index.html
 # BEN 10 | CLOCKTOWER BREAKING!
 # Written and drawn by Bambeptin
 
-Updates every Monday and Thursday.
+Updates every Monday, Wednesday, and Friday, until it's done.
 
-900 followers on Twitter and CLOCKTOWER BREAKING! will update Monday, Wednesday, and Friday!
+Thanks for your support!
 
 {% include authorsocialmedia.html %}
