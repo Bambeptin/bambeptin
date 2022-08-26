@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-08-26 15:00:00 -0500
+title: "21"
+categories: page
+permalink: /021
+---
+![PAGE TWENTYONE]({{ site.url }}/pages/021.png)
