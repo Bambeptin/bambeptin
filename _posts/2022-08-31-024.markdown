@@ -1,7 +1,7 @@
 ---
 layout: comic
 date:   2022-08-31 15:00:00 -0500
-title: "24"
+title: "24 - MYSELF"
 categories: page
 permalink: /024
 ---
