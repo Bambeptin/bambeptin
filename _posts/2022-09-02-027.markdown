@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-09-02 15:00:00 -0500
+title: "27"
+categories: page
+permalink: /027
+---
+![PAGE TWENTYSEVEN]({{ site.url }}/pages/027.png)
