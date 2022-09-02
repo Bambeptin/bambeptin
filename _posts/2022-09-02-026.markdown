@@ -1,7 +1,7 @@
 ---
 layout: comic
 date:   2022-09-02 15:00:00 -0500
-title: "26 - BREAKING!"
+title: "26"
 categories: page
 permalink: /026
 ---
