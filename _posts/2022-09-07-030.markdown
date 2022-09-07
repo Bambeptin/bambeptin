@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-09-07 15:00:00 -0500
+title: "30"
+categories: page
+permalink: /030
+---
+![PAGE THIRTY]({{ site.url }}/pages/030.png)
