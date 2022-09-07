@@ -1,8 +1,0 @@
----
-layout: comic
-date:   2022-09-05 15:00:00 -0500
-title: "28"
-categories: page
-permalink: /028
----
-![PAGE TWENTYEIGHT]({{ site.url }}/pages/028.png)
