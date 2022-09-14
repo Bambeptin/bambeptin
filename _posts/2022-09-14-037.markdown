@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-09-14 15:00:00 -0500
+title: "37"
+categories: page
+permalink: /037
+---
+![PAGE THIRTYSEVEN]({{ site.url }}/pages/037.png)
