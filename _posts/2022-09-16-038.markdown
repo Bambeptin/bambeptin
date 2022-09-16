@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-09-16 15:00:00 -0500
+title: "38"
+categories: page
+permalink: /038
+---
+![PAGE THIRTYEIGHT]({{ site.url }}/pages/038.png)
