@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-09-16 15:00:00 -0500
+title: "39"
+categories: page
+permalink: /039
+---
+![PAGE THIRTYNINE]({{ site.url }}/pages/039.png)
