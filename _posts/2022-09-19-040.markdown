@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-09-19 15:00:00 -0500
+title: "40"
+categories: page
+permalink: /040
+---
+![PAGE FORTY]({{ site.url }}/pages/040.png)
