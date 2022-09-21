@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-09-21 15:00:00 -0500
+title: "43"
+categories: page
+permalink: /043
+---
+![PAGE FORTYTHREE]({{ site.url }}/pages/043.png)
