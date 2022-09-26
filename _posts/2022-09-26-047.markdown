@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-09-26 15:00:00 -0500
+title: "47"
+categories: page
+permalink: /047
+---
+![PAGE FORTYSEVEN]({{ site.url }}/pages/047.png)
