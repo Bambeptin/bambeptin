@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-09-26 15:00:00 -0500
+title: "46"
+categories: page
+permalink: /046
+---
+![PAGE FORTYSIX]({{ site.url }}/pages/046.png)
