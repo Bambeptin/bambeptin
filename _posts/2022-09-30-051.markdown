@@ -1,0 +1,8 @@
+---
+layout: comic
+date:   2022-09-30 15:00:00 -0500
+title: "51"
+categories: page
+permalink: /051
+---
+![PAGE FIFTYONE]({{ site.url }}/pages/051.png)
